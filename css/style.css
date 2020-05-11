@@ -1,0 +1,38 @@
+body{
+    background-image: linear-gradient(to right, #EAADEA, #D9D9F3);
+    font-family: Century Gothic, sans-serif;
+    height: 100vh;
+
+    }
+    
+    .menu{
+    background-color: #ffffff;
+
+    }
+    
+    .menu ul{
+    display: flex;
+    justify-content: space-around;
+    }
+    
+    .menu li {
+    list-style: none;
+    }
+    
+    a{
+    color: #DB7093;
+    text-decoration: none;
+    }
+    
+    a:hover{
+    text-decoration: underline;
+    }
+    
+    .site-subtitle,
+    .site-title{
+    text-align: center;
+    }
+    
+    .site-subtitle{
+    font-style: italic;
+    }
