@@ -1,5 +1,5 @@
 body{
-    background-image: linear-gradient(to right, #EAADEA, #D9D9F3);
+    background-image: linear-gradient(to right, #d6b1a8, #f6efe9);
     font-family: Century Gothic, sans-serif;
     height: 100vh;
 
@@ -20,7 +20,7 @@ body{
     }
     
     a{
-    color: #DB7093;
+    color: #102947;
     text-decoration: none;
     }
     
@@ -30,6 +30,7 @@ body{
     
     .site-subtitle,
     .site-title{
+		color: #102947;
     text-align: center;
     }
     
