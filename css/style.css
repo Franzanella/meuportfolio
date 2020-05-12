@@ -1,12 +1,44 @@
+
+/* soft reset do css */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+
+}
+
 body{
     background-image: linear-gradient(to right, #d6b1a8, #f6efe9);
     font-family: Century Gothic, sans-serif;
+    background-size: auto 100vh;
     height: 100vh;
 
     }
+    @media (min-width: 400px) {
+      body {
+        font-size: 18px;
+      }
+    }
     
+    @media (min-width: 600px) {
+      body {
+        font-size: 22px;
+      }
+    }
+    
+    header {
+      height: 100vh;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      flex-wrap: wrap;
+    }
+        
     .menu{
-    background-color: #ffffff;
+    background-color:#102947;
+    position: fixed;
+    top: 0;
+    width: 100vw;
 
     }
     
@@ -19,21 +51,29 @@ body{
     list-style: none;
     }
     
-    a{
-    color: #102947;
+  .menu a{
+    color: #f6efe9;
+    display: block;
+    padding: 10px;
     text-decoration: none;
     }
     
-    a:hover{
-    text-decoration: underline;
-    }
-    
-    .site-subtitle,
     .site-title{
-		color: #102947;
-    text-align: center;
+
+      color: #102947;
+      text-align: center;
     }
     
     .site-subtitle{
+		color: #102947;
     font-style: italic;
+    font-weight: lighter;
+    text-align: center;
+    font-size: 2em;
+    }
+    
+
+    .img-portfolio {
+      height: 180px;
+      width: 180px;
     }
