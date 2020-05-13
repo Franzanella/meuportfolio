@@ -9,7 +9,7 @@
 
 body{
     background-image: linear-gradient(to right, #d6b1a8, #f6efe9);
-    font-family: Century Gothic, sans-serif;
+    font-family: Roboto, sans-serif;
     background-size: auto 100vh;
     height: 100vh;
 
@@ -61,6 +61,10 @@ body{
     .site-title{
 
       color: #102947;
+      font-family: 'Dancing Script', cursive;
+      font-size: 4em;
+      line-height: 1em;
+      margin-bottom: 20px;
       text-align: center;
     }
     
@@ -69,11 +73,71 @@ body{
     font-style: italic;
     font-weight: lighter;
     text-align: center;
+    line-height: 1.8em;
     font-size: 2em;
     }
     
 
-    .img-portfolio {
-      height: 180px;
-      width: 180px;
-    }
+.contato,
+.portfolio {
+  padding: 1em;
+}
+
+.contato h2,
+.portfolio h2 {
+  color:#102947;
+  font-family: 'Carter One', cursive;
+  font-size: 2.2em;
+  margin-bottom: .5em;
+}
+
+ .grid {
+  color: silver;
+  display: grid;
+  gap: 1em;
+  align-content: center;
+  justify-content: center;
+  text-align: center;
+}
+
+@media (min-width: 400px) {
+  .contato,
+  .portfolio {
+    padding: 3em 2em 2em;
+    height: 100vh;
+  }
+
+  .grid {
+    grid-template-columns: 200px 200px;
+    height: calc(100vh - 4.5em - 75px);
+  }
+}
+
+@media (min-width: 940px) {
+  .contato,
+  .portfolio {
+    padding: 2em;
+  }
+
+  .grid {
+    grid-template-columns: repeat(4, 200px);
+    height: calc(100vh - 8em - 75px);
+  }
+}
+
+.portfolio figcaption {
+  font-weight: bold;
+  color: #102947;
+}
+
+.img-portfolio {
+  border-radius: 10px;
+  height: 180px;
+  object-fit: cover;
+  width: 180px;
+}
+
+.icons a {
+  color:#102947;
+  font-size: 6em;
+}
