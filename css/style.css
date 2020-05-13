@@ -40,6 +40,7 @@ body{
     top: 0;
     width: 100vw;
 
+
     }
     
     .menu ul{
@@ -57,6 +58,21 @@ body{
     padding: 10px;
     text-decoration: none;
     }
+
+
+    img    {
+     
+      border-radius: 90px;
+      height: 180px;
+      object-fit: cover;
+      width: 180px;
+      
+      margin-bottom: 20px;
+      display: block;
+      margin-left: auto;
+      margin-right: auto;
+  }
+
     
     .site-title{
 
@@ -140,4 +156,8 @@ body{
 .icons a {
   color:#102947;
   font-size: 6em;
+}
+
+a{
+  text-decoration: none;
 }
