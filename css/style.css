@@ -1,193 +1,204 @@
 
-/* soft reset do css */
-* {
-  margin: 0;
-  padding: 0;
-  box-sizing: border-box;
+  /* soft reset do css */
+  * {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
 
-}
+  }
 
-body{
-    background-image: linear-gradient(to right, #d6b1a8, #f6efe9);
-    font-family: Roboto, sans-serif;
-    background-size: auto 100vh;
-    height: 100vh;
-
-    }
-    @media (min-width: 400px) {
-      body {
-        font-size: 18px;
-      }
-    }
-    
-    @media (min-width: 600px) {
-      body {
-        font-size: 22px;
-      }
-    }
-    
-    header {
+  body{
+      background-image: linear-gradient(to right, #d6b1a8, #f6efe9);
+      font-family: Roboto, sans-serif;
+      background-size: auto 100vh;
       height: 100vh;
-      display: flex;
-      align-items: center;
-      justify-content: center;
-      flex-wrap: wrap;
-    }
-        
-    .menu{
-    background-color:#102947;
-    position: fixed;
-    top: 0;
-    width: 100vw;
 
-
-    }
-    
-    .menu ul{
-    display: flex;
-    justify-content: space-around;
-    }
-    
-    .menu li {
-    list-style: none;
-    }
-    
-  .menu a{
-    color: #f6efe9;
-    display: block;
-    padding: 10px;
-    text-decoration: none;
-    }
-
-.menu a:active,
-.menu a:hover {
-  background-color: #0b1b2f;
-  color: #f6efe9;
-}
-
-
-    img    {
-    
-      border-radius: 90px;
-      height: 180px;
-      object-fit: cover;
-      width: 180px;
+      }
+      @media (min-width: 400px) {
+        body {
+          font-size: 18px;
+        }
+      }
       
-      margin-bottom: 20px;
+      @media (min-width: 600px) {
+        body {
+          font-size: 22px;
+        }
+      }
+      
+      header {
+        height: 100vh;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        flex-wrap: wrap;
+      }
+          
+      .menu{
+      background-color:#102947;
+      position: fixed;
+      top: 0;
+      width: 100vw;
+
+
+      }
+      
+      .menu ul{
+      display: flex;
+      justify-content: space-around;
+      }
+      
+      .menu li {
+      list-style: none;
+      }
+      
+    .menu a{
+      color: #f6efe9;
       display: block;
-      margin-left: auto;
-      margin-right: auto;
+      padding: 10px;
+      text-decoration: none;
+      }
+
+  .menu a:active,
+  .menu a:hover {
+    background-color: #0b1b2f;
+    color: #f6efe9;
   }
 
-    
-    .site-title{
 
+      img    {
+      
+        border-radius: 90px;
+        height: 180px;
+        object-fit: cover;
+        width: 180px;
+        
+        margin-bottom: 20px;
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+    }
+
+      
+      .site-title{
+
+        color: #102947;
+        font-family: 'Dancing Script', cursive;
+        font-size: 4em;
+        line-height: 1em;
+        margin-bottom: 20px;
+        text-align: center;
+      }
+      
+      .site-subtitle{
       color: #102947;
-      font-family: 'Dancing Script', cursive;
-      font-size: 4em;
-      line-height: 1em;
-      margin-bottom: 20px;
+      font-style: italic;
+      font-weight: lighter;
       text-align: center;
-    }
-    
-    .site-subtitle{
-		color: #102947;
-    font-style: italic;
-    font-weight: lighter;
+      line-height: 1.8em;
+      font-size: 2em;
+      }
+      
+  .sobre,
+  .certificado,
+  .contato,
+  .portfolio {
+    padding: 1em;
+  }
+
+  .sobre h2,
+  .certificado h2,
+  .contato h2,
+  .portfolio h2 {
+    color:#102947;
+    font-family: Roboto, sans-serif;
+    font-style: oblique;
+    font-size: 2.2em;
+    margin-bottom: .5em;
+  }
+
+  .grid {
+    color:#102947;
+    display: grid;
+    gap: 1em;
+    align-content: center;
+    justify-content: center;
     text-align: center;
-    line-height: 1.8em;
-    font-size: 2em;
+  }
+
+  @media (min-width: 400px) {
+    .sobre,
+    .certificado,
+    .contato,
+    .portfolio {
+      padding: 3em 2em 2em;
+      height: 100vh;
     }
-    
-.sobre,
-.certificado,
-.contato,
-.portfolio {
-  padding: 1em;
-}
 
-.sobre h2,
-.certificado h2,
-.contato h2,
-.portfolio h2 {
-  color:#102947;
-  font-family: Roboto, sans-serif;
-  font-style: oblique;
-  font-size: 2.2em;
-  margin-bottom: .5em;
-}
-
- .grid {
-  color:#102947;
-  display: grid;
-  gap: 1em;
-  align-content: center;
-  justify-content: center;
-  text-align: center;
-}
-
-@media (min-width: 400px) {
-  .sobre,
-  .certificado,
-  .contato,
-  .portfolio {
-    padding: 3em 2em 2em;
-    height: 100vh;
+    .grid {
+      grid-template-columns: 200px 200px;
+      height: calc(100vh - 4.5em - 75px);
+    }
   }
 
-  .grid {
-    grid-template-columns: 200px 200px;
-    height: calc(100vh - 4.5em - 75px);
+  @media (min-width: 940px) {
+    .sobre,
+    .certificado,
+    .contato,
+    .portfolio {
+      padding: 2em;
+    }
+
+    .grid {
+      grid-template-columns: repeat(4, 200px);
+      height: calc(100vh - 8em - 75px);
+    }
   }
-}
 
-@media (min-width: 940px) {
-  .sobre,
-  .certificado,
-  .contato,
-  .portfolio {
-    padding: 2em;
+  .portfolio figcaption {
+    font-weight: bold;
+    color: #102947;
   }
 
-  .grid {
-    grid-template-columns: repeat(4, 200px);
-    height: calc(100vh - 8em - 75px);
+  .img-portfolio {
+    border-radius: 10px;
+    height: 180px;
+    object-fit: cover;
+    width: 180px;
   }
-}
 
-.portfolio figcaption {
-  font-weight: bold;
-  color: #102947;
-}
+  .img-portfolio:hover {
+    transform: scale(1.2) rotate(-2deg);
+  }
 
-.img-portfolio {
-  border-radius: 10px;
-  height: 180px;
-  object-fit: cover;
-  width: 180px;
-}
+  .icons a {
+    color:#102947;
+    font-size: 6em;
+  }
 
-.img-portfolio:hover {
-  transform: scale(1.2) rotate(-2deg);
-}
-
-.icons a {
-  color:#102947;
-  font-size: 6em;
-}
-
-a{
-  text-decoration: none;
-}
+  a{
+    text-decoration: none;
+  }
 
 
-p{
-  color:#102947;
-}
+  p{
+    color:#102947;
+  }
 
 
-.rodape{
-  
-  
-  text-align: center; 
-}
+  .contato a {
+    color: #102947;
+    font-size: 4em;
+    transition: text-shadow 1s;
+  }
+
+  .contato a:active,
+  .contato a:hover  {
+    text-decoration: none;
+    text-shadow: 0px 0px 10px #0b1b2f;
+  }
+
+
+  .rodape{
+    text-align: center; 
+  }
