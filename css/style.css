@@ -59,6 +59,13 @@ body{
     text-decoration: none;
     }
 
+.menu a:active,
+.menu a:hover {
+  background-color: #0b1b2f;
+  color: #f6efe9;
+}
+
+
     img    {
     
       border-radius: 90px;
@@ -158,6 +165,10 @@ body{
   height: 180px;
   object-fit: cover;
   width: 180px;
+}
+
+.img-portfolio:hover {
+  transform: scale(1.2) rotate(-2deg);
 }
 
 .icons a {
