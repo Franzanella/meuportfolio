@@ -93,12 +93,14 @@ body{
     }
     
 .sobre,
+.certificado,
 .contato,
 .portfolio {
   padding: 1em;
 }
 
 .sobre h2,
+.certificado h2,
 .contato h2,
 .portfolio h2 {
   color:#102947;
@@ -118,6 +120,7 @@ body{
 
 @media (min-width: 400px) {
   .sobre,
+  .certificado,
   .contato,
   .portfolio {
     padding: 3em 2em 2em;
@@ -132,6 +135,7 @@ body{
 
 @media (min-width: 940px) {
   .sobre,
+  .certificado,
   .contato,
   .portfolio {
     padding: 2em;
