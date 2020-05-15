@@ -202,3 +202,11 @@
   .rodape{
     text-align: center; 
   }
+
+  .certificado figure p {
+    padding: 5px;
+    font-size: 13px;
+    font-weight: 300;
+    text-align: center;
+}
+
