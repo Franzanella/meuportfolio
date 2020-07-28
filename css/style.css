@@ -8,7 +8,7 @@
   }
 
   body{
-      background-image: linear-gradient(to right, #9ecbf0, #f6efe9);
+      background-color: #f6efe9;
       font-family: Roboto, sans-serif;
       background-size: auto 100vh;
       height: 100vh;
